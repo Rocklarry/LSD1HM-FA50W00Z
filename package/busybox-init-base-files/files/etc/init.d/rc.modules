@@ -1,7 +1,0 @@
-#!/bin/sh
-
-[ -d /etc/modules.d ] && \
-	/sbin/kmodloader "/etc/modules.d/"
-
-[ -d /etc/modules-boot.d ] && \
-	/sbin/kmodloader "/etc/modules-boot.d/" &

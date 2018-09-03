@@ -1,4 +1,0 @@
-config ESP8089
-	tristate "Eagle WLAN driver"
-	depends on MMC && MAC80211
-
